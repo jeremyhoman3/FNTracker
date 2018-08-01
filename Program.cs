@@ -9,16 +9,12 @@ namespace FNTracker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Epic Username");
-            //request username 
-            string username = Console.ReadLine();
-            Console.write(username);
+            Console.WriteLine("Starting");
             GetData();
             Console.ReadLine();
             Console.ReadKey();
         }
 
-        // https://api.fortnitetracker.com/v1/profile/{platform}/{epic-nickname}
         static async void GetData()
         {
             string baseUrl = "https://api.fortnitetracker.com/v1/profile/xbl/Grindelwald83/";
@@ -36,14 +32,16 @@ namespace FNTracker
                    
                  if (data != null)
                 {
-                    Console.WriteLine(data);
-                    // save to DB
-                    // Look into deserialization
+                // Console.WriteLine(data);
 
-                    //write something to check file path, if file exists add
-                    string path = @"C:\Users\jhoman\Documents\Code\FNStats\test.json";
-                    File.WriteAllText(path,data);
-                    Console.WriteLine("File saved correctly");
+                //create file name based on timestamp
+                DateTime date = DateTime.Now;
+                string datestring = date.ToString("yyyymmddhhmmss");
+                string path = @"C:\Users\jhoman\Documents\Code\FNStats\" + datestring + ".json";
+
+                //write to path
+                File.WriteAllText(path,data);
+                Console.WriteLine("File saved correctly");
 
                 }
         }

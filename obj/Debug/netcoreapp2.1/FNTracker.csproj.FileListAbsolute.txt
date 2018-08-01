@@ -1,6 +1,3 @@
-C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.csprojAssemblyReference.cache
-C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.csproj.CoreCompileInputs.cache
-C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.AssemblyInfoInputs.cache
 C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.AssemblyInfo.cs
 C:\Users\jhoman\Documents\Code\FNTracker\bin\Debug\netcoreapp2.1\FNTracker.deps.json
 C:\Users\jhoman\Documents\Code\FNTracker\bin\Debug\netcoreapp2.1\FNTracker.runtimeconfig.json
@@ -9,3 +6,4 @@ C:\Users\jhoman\Documents\Code\FNTracker\bin\Debug\netcoreapp2.1\FNTracker.dll
 C:\Users\jhoman\Documents\Code\FNTracker\bin\Debug\netcoreapp2.1\FNTracker.pdb
 C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.dll
 C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.pdb
+C:\Users\jhoman\Documents\Code\FNTracker\obj\Debug\netcoreapp2.1\FNTracker.csprojResolveAssemblyReference.cache

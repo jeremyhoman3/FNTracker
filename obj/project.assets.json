@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "Microsoft.NETCore.App/2.1.0": {
@@ -203,9 +203,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        },
-        "build": {
-          "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       }
     }
@@ -681,8 +678,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhoman\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jhoman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -690,32 +686,15 @@
       "projectUniqueName": "C:\\Users\\jhoman\\Documents\\Code\\FNTracker\\FNTracker.csproj",
       "projectName": "FNTracker",
       "projectPath": "C:\\Users\\jhoman\\Documents\\Code\\FNTracker\\FNTracker.csproj",
-      "packagesPath": "C:\\Users\\jhoman\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jhoman\\Documents\\Code\\FNTracker\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\jhoman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-      ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -723,15 +702,10 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.1.0, )",
+            "version": "2.1",
             "autoReferenced": true
           }
-        },
-        "imports": [
-          "net461"
-        ],
-        "assetTargetFallback": true,
-        "warn": true
+        }
       }
     }
   }
